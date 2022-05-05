@@ -1,0 +1,82 @@
+body {
+    background-color: #ffe3cc;
+}
+.nav-item {
+    transition: all .3s ease-in-out;    
+}
+.nav-item:hover {
+    background-color: #776228f0;
+    color: aliceblue;
+}
+
+.slide {
+    margin: 10px;    
+}
+.slide img {
+    height: 75vh;
+}
+
+.table-responsive {
+    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.home-footer {
+    display: flex;
+    align-items: flex-end;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.home-footer p {
+    font-size: 10px;
+}
+
+
+/*Estilo de mis paginas secundarias*/
+
+.secondary-header {
+    margin: 10px;  
+}
+
+.secondary-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: oblique;
+    color: #b8170be2;    
+}
+
+.secondary-subtitle {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #b8170be2;  
+}
+
+.links-recomendados{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.links-recomendados a {
+    font-size: x-large;
+    color: black;
+}
+
+.maps-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
